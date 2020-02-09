@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'jquery-rails'
 gem 'simple_form'
+gem 'devise'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
