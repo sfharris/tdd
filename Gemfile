@@ -39,6 +39,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
+gem "figaro"
+gem "fog-aws"
+
+
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
